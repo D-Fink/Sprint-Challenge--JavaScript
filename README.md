@@ -29,15 +29,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+1A. .map returns a new array
 2. What is the difference between a function and a method?
-
+2A. The main difference is that a method is usually within an object.
 3. What is closure?
-
+3A. a function or functions that can reference outside its scope.
 4. Describe the four rules of the 'this' keyword.
-
+4A. Global: references the global object.
+    Implicit: references the object to the left of the dot
+    New: used with a constructor to return a new object
+    Explicit: can override constructed objects by calling .call or .apply.
 5. Why do we need super() in an extended class?
-
+5.  so it can import our properties
 ## Project Set up
 
 Follow these steps to set up and work on your project:
